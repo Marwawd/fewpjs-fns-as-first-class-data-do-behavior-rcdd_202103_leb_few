@@ -28,9 +28,7 @@ else  {
 }
 
 function displayMessage (str) {
-let content = document.getElementById("greeting").innerText;
-content=`${str}`;
+   document.getElementById("greeting").innerText=`${str}`;
 }
 let testContent = "TEST";
-//let testContent = "TEST"
 displayMessage(testContent);
