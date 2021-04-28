@@ -26,17 +26,11 @@ else  {
   return "Good Afternoon";
 }
 }
-/* Write your implementation of displayMessage() */
-
 
 function displayMessage (str) {
-/*
-  let F=document.getElementById('greeting').innerText;
-   F=`${str}`;
-*/
-//  console.log(f);
-
-
 let content = document.getElementById("greeting").innerText;
 content=`${str}`;
 }
+let testContent = "TEST";
+//let testContent = "TEST"
+displayMessage(testContent);
